@@ -1,0 +1,7 @@
+run('a1step_read_mri')
+run('a2step_realign_mri')
+run('a3step_segment_mri')
+run('a4step_create_mesh')
+run('a5step_prep_headmodel')
+%run('a6step_realign_elec.m')
+run('a7step_preparedata.m')
